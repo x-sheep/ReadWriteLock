@@ -9,7 +9,7 @@ import Darwin
 
 // MARK: - ReadWriteLock Definition
 
-public class ReadWriteLock {
+public final class ReadWriteLock: @unchecked Sendable {
 
     // MARK: Private Properties
 
